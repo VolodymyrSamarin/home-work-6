@@ -1,0 +1,27 @@
+td {
+    border: 9px solid black;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 900px;
+    height: 850px;
+    border-collapse: collapse;
+}
+
+.container {
+    width: min(100% , 1000px); /* Ширина контейнера з максимальним обмеженням 1340px */
+    margin-inline: auto; /* Автоматичний відступ з обох боків для центрування */
+  }
+
+*{
+    margin: 0;
+}
+
+.ok{
+    width: auto;
+    height: 60px;
+}
